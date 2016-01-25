@@ -1,0 +1,19 @@
+{
+  "name": "frontendquizapp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.11.1",
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^1.1.0",
+    "load-grunt-config": "^0.19.1",
+    "load-grunt-tasks": "^3.4.0"
+  }
+}
