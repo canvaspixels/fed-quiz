@@ -37,12 +37,27 @@
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <title>Front End Quiz</title>
     </head>
-    <body>
+    <body class="options page-with-header">
+        <header>
+            <a href="options.html" class="btn btn-back">Back</a>
+        </header>
 
-        <section id="react"></section>
+        <h2>Are you?</h2>
+
+        <ul class="btn-list">
+            <li>
+                <a href="quiz.html?type=mix&amp;level=1" class="btn">Beginner</a>
+            </li>
+            <li>
+                <a href="quiz.html?type=mix&amp;level=2" class="btn">Middleweight</a>
+            </li>
+            <li>
+                <a href="quiz.html?type=mix&amp;level=3" class="btn">Guru</a>
+            </li>
+        </ul>
+
 
         <script src="js/jquery-2.2.0.min.js"></script>
         <script src="js/index.js"></script>
-        <script src="build/bundle.js"></script>
     </body>
 </html>
