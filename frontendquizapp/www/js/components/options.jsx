@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 let Page = React.createClass({
 
@@ -6,7 +7,7 @@ let Page = React.createClass({
         return(
             <div>
                 <header>
-                    <a href="index.html" className="btn btn-back">Back</a>
+                    <Link to="/" className="btn">Back</Link>
                 </header>
 
                 <main className="page-has-header">

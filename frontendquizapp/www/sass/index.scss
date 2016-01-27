@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-@import 'fonts';
+@import './fonts.scss';
 
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
@@ -126,7 +126,7 @@ header {
     padding: 10px;
 }
 
-.page-with-header {
+.page-has-header {
     padding-top: 16vh;
 }
 

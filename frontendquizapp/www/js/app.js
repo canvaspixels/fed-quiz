@@ -4,6 +4,8 @@ import { render } from 'react-dom';
 
 import Options from './components/options.jsx';
 
+import '../sass/index.scss';
+
 let App = React.createClass({
   render() {
     return (
