@@ -2,6 +2,7 @@ import React from 'react';
 import { Router, Route, Link, IndexRoute } from 'react-router';
 import { render } from 'react-dom';
 
+import Home from './components/home.jsx';
 import Options from './components/options.jsx';
 
 import '../sass/index.scss';
@@ -16,22 +17,6 @@ let App = React.createClass({
   }
 });
 
-let Home = React.createClass({
-  render() {
-    return (
-        <div>
-            <h1 className="main">
-                <em>THE</em><br />
-                Front End<br />
-                Developer<br />
-                Quiz
-            </h1>
-
-            <Link to="/options" className="btn">PLAY</Link>
-        </div>
-    );
-  }
-});
 
 let routes = (
     <Router>

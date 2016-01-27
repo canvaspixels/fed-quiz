@@ -3,11 +3,11 @@ var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
     entry: [
-        // 'webpack/hot/only-dev-server',
+        'webpack/hot/dev-server',
         './www/js/app.js'
     ],
     output: {
-        path: __dirname + '/www/build',
+        path: __dirname + '/www',
         filename: 'bundle.js'
     },
     module: {
@@ -15,7 +15,6 @@ module.exports = {
             {
                 test: /\.js|\.jsx$/,
                 loaders: [
-                    // 'react-hot',
                     'babel'
                 ],
                 exclude: /node_modules/
@@ -32,7 +31,6 @@ module.exports = {
         ]
     },
     plugins: [
-        // new webpack.HotModuleReplacementPlugin()
         new webpack.NoErrorsPlugin(),
         new BrowserSyncPlugin({
             // BrowserSync options

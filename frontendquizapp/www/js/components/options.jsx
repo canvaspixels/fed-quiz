@@ -7,7 +7,7 @@ let Page = React.createClass({
         return(
             <div>
                 <header>
-                    <Link to="/" className="btn">Back</Link>
+                    <Link to="/" className="btn btn-back">Back</Link>
                 </header>
 
                 <main className="page-has-header">
