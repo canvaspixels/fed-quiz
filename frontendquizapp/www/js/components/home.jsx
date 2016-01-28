@@ -12,7 +12,7 @@ let Page = React.createClass({
                 Quiz
             </h1>
 
-            <Link to="/options" className="btn">PLAY</Link>
+            <Link to="/category" className="btn">PLAY</Link>
         </div>
     );
   }

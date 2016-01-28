@@ -15,19 +15,19 @@ let Page = React.createClass({
 
                     <ul className="btn-list">
                         <li>
-                            <a href="" className="btn">HTML</a>
+                            <Link to="/category/html" className="btn">HTML</Link>
                         </li>
                         <li>
-                            <a href="" className="btn">CSS</a>
+                            <Link to="/category/css" className="btn">CSS</Link>
                         </li>
                         <li>
-                            <a href="" className="btn">SASS</a>
+                            <Link to="/category/sass" className="btn">SASS</Link>
                         </li>
                         <li>
-                            <a href="" className="btn">JavaScript</a>
+                            <Link to="/category/javascript" className="btn">JavaScript</Link>
                         </li>
                         <li>
-                            <a href="" className="btn">JS Libraries and Frameworks</a>
+                            <Link to="/category/libraries" className="btn">JS Libraries and Frameworks</Link>
                         </li>
                     </ul>
                 </main>
